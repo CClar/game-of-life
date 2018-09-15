@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+a{
+  color: white;
+}
+body {
+  background: #525564;
+  color:  #FEF6EB;
+  font-family: 'Open Sans', sans-serif;  
+}
+.Cell{
+  height: .9vh;
+  width: .9vh;
+  border: solid black 1px;
+  transition: .2s;
+}
+.Main {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+  flex-direction: column;
+}
+.Description {
+  padding: 10%;
+  margin-top: -10%;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.GameOfLife {
+  display:flex;
+  flex-direction: row;
+}
+.Labels {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.Labels label, .Label input .WxH label, .WxH input{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+input, label{
+  margin: .5vh;
+  text-align: center;
+}
+.WxH {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1vh;
+}
+button {
+  margin: 1vh 1vh 0 1vh;
+}
